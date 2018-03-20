@@ -1,0 +1,30 @@
+{
+  "name": "gawati-auth-client",
+  "version": "1.0.0",
+  "description": "Gawati Auth Wrapper for keycloak-js",
+  "main": "build/gawati-auth-helper.js",
+  "scripts": {
+    "build": "babel src -d build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gawati/gawati-auth-client.git"
+  },
+  "author": "Ashok Hariharan (https://github.com/kohsah)",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/gawati/gawati-auth-client/issues"
+  },
+  "homepage": "https://github.com/gawati/gawati-auth-client#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.2.2",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "react": "^16.2.0"
+  },
+  "dependencies": {
+    "keycloak-js": "^3.4.3"
+  }
+}
